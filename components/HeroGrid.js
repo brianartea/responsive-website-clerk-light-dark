@@ -18,7 +18,7 @@ function HeroGrid() {
             examples. React, React Native, NextJS, CSS, Tailwind and JavaScript.
           </p>
           <div>
-            <Link href="/videos">
+            {/* <Link href="/videos">
               <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:bg-gray-900 dark:hover:bg-[#3F3D56] dark:hover:border-black bg-blue-600 hover:bg-[#3F3D56] text-gray-100 hover:text-white">
                 VIDEOS
               </button>
@@ -27,7 +27,7 @@ function HeroGrid() {
               <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:bg-gray-900 dark:hover:bg-[#3F3D56] dark:hover:border-black bg-blue-600 hover:bg-[#3F3D56] text-gray-100 hover:text-white">
                 EXTRAS
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
