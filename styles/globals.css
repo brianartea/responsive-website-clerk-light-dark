@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100;
+  }
+
+  ::selection {
+    @apply text-white bg-blue-600;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box-shadow-two {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.box-shadow-two:hover {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow-dark {
+  box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.box-shadow-dark:hover {
+  box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.iframe-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  z-index: 1;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  z-index: 1;
+}
+
+.zed {
+  z-index: -2;
+}
