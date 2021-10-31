@@ -1,7 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useTheme } from "next-themes";
 
 function HeroGrid() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
   return (
     <div className="p-10 mt-10 md:mt-20 lg:mt-20 lg:ml-5">
       <div className="md:grid md:grid-cols-2 lg:max-w-6xl lg:mx-auto lg:px-4">
@@ -33,13 +36,23 @@ function HeroGrid() {
 
         {/* right */}
         <div className="mt-0 md:mt-[20px] lg:mr-0 lg:mt-[60px]">
-          <Image
-            width={450}
-            height={450}
-            className="h-[450px] object-contain"
-            src="/undraw_Design_notes_re_eklr.svg"
-            alt="hero-image"
-          />
+          {currentTheme === "dark" ? (
+            <Image
+              width={450}
+              height={450}
+              className="h-[450px] object-contain"
+              src="/undraw_community_re_cyrm.svg"
+              alt="hero-image"
+            />
+          ) : (
+            <Image
+              width={450}
+              height={450}
+              className="h-[450px] object-contain"
+              src="/undraw_Design_notes_re_eklr.svg"
+              alt="hero-image"
+            />
+          )}
         </div>
       </div>
     </div>

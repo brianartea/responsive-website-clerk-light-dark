@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import MobileNavbar from "./MobileNavbar";
 import Link from "next/link";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import useComponentVisible from "./useComponentVisible";
 import {
