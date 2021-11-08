@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import MobileNavbar from "./MobileNavbar";
 import Link from "next/link";
-import Image from "next/image";
+//import Image from "next/image";
 import { useTheme } from "next-themes";
 import useComponentVisible from "./useComponentVisible";
 import {
@@ -53,14 +53,12 @@ function Navbar() {
     <nav className="fixed top-0 z-50 w-[100%] bg-gray-50 border-b-[1px] border-gray-300 dark:bg-gray-900 dark:border-b-[1px] dark:border-gray-700">
       <div className="max-w-6xl mx-auto mb-2 mt-2 px-4">
         {/* Logo */}
-
         <div className="flex justify-between">
           <div className="flex">
             <div className="mr-8">
               <Link href="/">
                 <a className="flex items-center py-4 pl-2 px-4 text-blue-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
                   <LightningBoltIcon className="h-7 w-7" />
-
                   <span className="text-2xl font-bold">Devs</span>
                 </a>
               </Link>
