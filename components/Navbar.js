@@ -64,7 +64,7 @@ function Navbar() {
               </Link>
             </div>
             {/* Left Nav */}
-            <div className="hidden md:flex items-center space-x-2 text-xl text-gray-600 font-semibold">
+            <div className="hidden md:flex md:justify-center items-center space-x-2 text-xl text-gray-600 font-semibold">
               <Link href="/tutorials">
                 <a className="py-2 px-4 hover:bg-blue-500 hover:text-white dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 rounded-md transform duration-200">
                   Tutorials
@@ -85,16 +85,6 @@ function Navbar() {
           {/* Right Nav */}
 
           <div className="flex items-center">
-            <SignedOut>
-              <Link href="/sign-in">
-                <span className="md:flex items-center cursor-pointer transform transition font-semibold text-xl py-2 rounded-md px-3 hover:bg-gray-300 text-gray-600 hover:text-gray-900 dark:hover:bg-gray-800 dark:text-gray-400 dark:hover:text-gray-300">
-                  Sign In
-                </span>
-              </Link>
-            </SignedOut>
-            <SignedIn>
-              <UserButton className="ring-blue-600" />
-            </SignedIn>
             {/* Mobile button goes here! */}
             <button
               ref={ref}
