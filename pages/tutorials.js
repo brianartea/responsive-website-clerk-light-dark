@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
-//import Link from "next/link";
+import Link from "next/link";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
-function Tutorials({ posts }) {
+function Tutorials({ posts, post }) {
   return (
     <div>
       <Head>

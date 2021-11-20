@@ -1,16 +1,11 @@
 ---
-title: "Django Crash Course"
-date: "March 5, 2021"
-excerpt: "Django is a very powerful, high level Python framework for building web applications"
+title: "Nextjs Crash Course"
+date: "November 19, 2021"
+excerpt: "Next is a very powerful framework for React building high performance web applications that are super fast!"
 cover_image: "/images/posts/img3.jpg"
 ---
 
-Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
-haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
-manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
-verba caput ferarum _nubila_? Patriam Cyparisse tamen, **saxum** fide postponere
-pavida ne omnes etiam, atque. Sonuit omina sed sine haerebat illic fit a mora
-in.
+### For starters Next has built in routing, server-side rendering (SSR/Code Splitting) and just puts out the info the user wants without downloading the whole app in turn having super fast page loads.
 
 1. Serrae enim Etruscam aquis
 2. Et premis et flumine frontem minatur oppressos

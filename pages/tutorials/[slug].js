@@ -19,7 +19,7 @@ export default function PostPage({
           <div className="dark:bg-gray-900 dark:text-gray-400 text-center mb-3 rounded-lg p-3">
             Posted on {date}
           </div>
-          <img src={cover_image} alt="" />
+          <img src={cover_image} alt="" className="" />
           <div className="post-body">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
