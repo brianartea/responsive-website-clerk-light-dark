@@ -26,7 +26,7 @@ export default function Post({ post }) {
       </Link>
       <Link href={`/tutorials/${post.slug}`}>
         <a>
-          <p>{post.frontmatter.excerpt}</p>
+          <p className="leading-6">{post.frontmatter.excerpt}</p>
         </a>
       </Link>
 

@@ -15,7 +15,7 @@ function Videos() {
       <Navbar />
       <div className="my-32 text-center">
         <h1 className="mb-10 text-4xl font-semibold text-gray-800 dark:text-gray-300">
-          Video Categories
+          Dev Videos
         </h1>
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col items-center justify-center mt-7 md:grid md:grid-cols-2 md:items-center md:justify-center md:mx-auto md:ml-6 lg:grid lg:grid-cols-3 lg:items-center lg:justify-center lg:mx-auto">
