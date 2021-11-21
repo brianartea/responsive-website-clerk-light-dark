@@ -13,7 +13,7 @@ function HeroGrid() {
           <h6 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 dark:text-gray-300">
             Welcome
           </h6>
-          <h6 className="italic mt-0 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
+          <h6 className="italic mt-4 mb-4 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
             To The Developers Community
           </h6>
           <p className="mt-0 text-base leading-relaxed text-gray-900 dark:text-gray-300 lg:mr-32 mb-6">
