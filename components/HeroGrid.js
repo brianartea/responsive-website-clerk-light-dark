@@ -10,12 +10,12 @@ function HeroGrid() {
       <div className="md:grid md:grid-cols-2 lg:max-w-6xl lg:mx-auto lg:px-4">
         {/* left */}
         <div className="mt-[60px] md:mt-20 md:mr-10 lg:mt-[20px] lg:flex lg:flex-col lg:justify-center lg:ml-6">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 dark:text-gray-300">
+          <h6 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 dark:text-gray-300">
             Welcome
-          </h1>
-          <h3 className="italic mt-0 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
+          </h6>
+          <h6 className="italic mt-0 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
             To The Developers Community
-          </h3>
+          </h6>
           <p className="mt-0 text-base leading-relaxed text-gray-900 dark:text-gray-300 lg:mr-32 mb-6">
             Resorces on web development and apps. Videos, written tutorials and
             examples. React, React Native, NextJS, CSS, Tailwind and JavaScript.
