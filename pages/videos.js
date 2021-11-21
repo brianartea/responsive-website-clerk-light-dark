@@ -19,9 +19,9 @@ function Videos() {
         </h1>
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col items-center justify-center mt-7 md:grid md:grid-cols-2 md:items-center md:justify-center md:mx-auto md:ml-6 lg:grid lg:grid-cols-3 lg:items-center lg:justify-center lg:mx-auto">
-            <div className="iframe-container mt-4 mb-8">
+            <div className="iframe-container mt-4 mb-8 transform transition-all hover:scale-105">
               <iframe
-                className="mt-2"
+                className="mt-2 mb-3"
                 width="360"
                 height="215"
                 src={"https://www.youtube.com/embed/KlCK69DZCKI"}
@@ -41,11 +41,11 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Create React App Explained
               </h2>
             </div>
-            <div className="iframe-container mt-4 mb-8">
+            <div className="iframe-container mt-4 mb-8 transform transition-all hover:scale-105">
               <iframe
                 className="mt-2"
                 width="360"
@@ -67,11 +67,11 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Learn How To Use Props
               </h2>
             </div>
-            <div className="iframe-container mt-4 mb-8">
+            <div className="iframe-container mt-4 mb-8 transform transition-all hover:scale-105">
               <iframe
                 className="mt-2"
                 width="360"
@@ -93,11 +93,11 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Learn How To useState
               </h2>
             </div>
-            <div className="iframe-container mt-4  mb-8">
+            <div className="iframe-container mt-4 mb-8 transform transition-all hover:scale-105">
               <iframe
                 className="mt-2"
                 width="360"
@@ -119,11 +119,11 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Learn the React useEffect Hook
               </h2>
             </div>
-            <div className="iframe-container mb-8 mt-4">
+            <div className="iframe-container mb-8 mt-4 transform transition-all hover:scale-105">
               <iframe
                 className="mt-2"
                 width="360"
@@ -145,11 +145,11 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Next.js Introduction & Setup
               </h2>
             </div>
-            <div className="iframe-container mb-8 mt-4">
+            <div className="iframe-container mb-8 mt-4 transform transition-all hover:scale-105">
               <iframe
                 className="mt-2"
                 width="360"
@@ -171,7 +171,7 @@ function Videos() {
                   />
                 </a>
               </iframe>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mt-0">
                 Dark/Lightmode NextJS Tailwind
               </h2>
             </div>

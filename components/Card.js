@@ -2,12 +2,16 @@ import Link from "next/link";
 
 function Card(props) {
   return (
-    <div className="max-w-xs mx-auto overflow-hidden box-shadow-two bg-white rounded-lg dark:bg-gray-900 dark:box-shadow-dark">
-      <img
-        className="object-cover w-full h-28"
-        src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-        alt="avatar"
-      />
+    <div className="mt-10 max-w-xs mx-auto overflow-hidden box-shadow-two bg-white rounded-lg dark:bg-gray-900 dark:box-shadow-dark">
+      <Link href="/react">
+        <a>
+          <img
+            className="object-cover w-full h-28"
+            src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="avatar"
+          />
+        </a>
+      </Link>
 
       <div className="py-5 text-center">
         <Link href="/react">
