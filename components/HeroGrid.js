@@ -13,9 +13,9 @@ function HeroGrid() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700 dark:text-gray-300">
             Welcome
           </h1>
-          <h3 className="italic mt-3 mb-4 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
+          <h2 className="italic m-0 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
             To The Developers Community
-          </h3>
+          </h2>
           <p className="text-base leading-relaxed text-gray-900 dark:text-gray-300 lg:mr-32 mb-8">
             Resorces on web development and apps. Videos, written tutorials and
             examples. React, React Native, NextJS, CSS, Tailwind and JavaScript.
@@ -50,7 +50,7 @@ function HeroGrid() {
               height={450}
               className="h-[450px] object-contain"
               src="/undraw_Design_notes_re_eklr.svg"
-              alt="hero-image"
+              alt="light-hero-image"
             />
           )}
         </div>
