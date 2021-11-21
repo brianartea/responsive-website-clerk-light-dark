@@ -16,7 +16,7 @@ function HeroGrid() {
           <h2 className="italic m-0 font-normal text-2xl md:5xl lg:5xl text-gray-900 dark:text-gray-300">
             To The Developers Community
           </h2>
-          <p className="text-base leading-relaxed text-gray-900 dark:text-gray-300 lg:mr-32 mb-8">
+          <p className="text-base leading-relaxed text-gray-900 dark:text-gray-300 lg:mr-32 mb-6">
             Resorces on web development and apps. Videos, written tutorials and
             examples. React, React Native, NextJS, CSS, Tailwind and JavaScript.
           </p>
