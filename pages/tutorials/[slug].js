@@ -15,12 +15,14 @@ export default function PostPage({
       <Navbar />
       <div className="max-w-4xl mx-auto mt-20">
         <div className="card card-page">
-          <h1 className="post-title text-2xl text-center">{title}</h1>
-          <div className="dark:bg-gray-900 dark:text-gray-400 text-center mb-3 rounded-lg p-3">
+          <h1 className="post-title text-4xl text-center dark:text-gray-300">
+            {title}
+          </h1>
+          <div className="dark:text-gray-400 text-center mb-3 rounded-lg p-3">
             Posted on {date}
           </div>
           <img src={cover_image} alt="" className="" />
-          <div className="post-body">
+          <div className="post-body dark:text-gray-300">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
         </div>

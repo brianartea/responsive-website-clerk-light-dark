@@ -14,7 +14,7 @@ export default function Post({ post }) {
       </Link>
       <Link href={`/tutorials/${post.slug}`}>
         <a>
-          <div className="dark:bg-gray-800 dark:text-gray-400 text-sm px-5 py-1 rounded-lg ">
+          <div className="dark:text-gray-400 text-sm px-5 py-1">
             Posted on {post.frontmatter.date}
           </div>
         </a>
