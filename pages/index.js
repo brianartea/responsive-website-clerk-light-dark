@@ -2,7 +2,6 @@ import Head from "next/head";
 import HeroGrid from "../components/HeroGrid";
 //import Link from "next/link";
 import Navbar from "../components/Navbar";
-import NavbarDynamic from "../components/NavbarDynamic";
 //import Header from "../components/Header";
 
 export default function Home() {
