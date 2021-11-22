@@ -41,6 +41,7 @@ function HeroGrid() {
               width={450}
               height={450}
               className="h-[450px] object-contain"
+              // src="/undraw_community_re_cyrm.svg"
               src="/github-dark.svg"
               alt="hero-image"
             />
@@ -49,7 +50,8 @@ function HeroGrid() {
               width={450}
               height={450}
               className="h-[450px] object-contain"
-              src="/undraw_Design_notes_re_eklr.svg"
+              // src="/undraw_Design_notes_re_eklr.svg"
+              src="/github-light.svg"
               alt="light-hero-image"
             />
           )}
