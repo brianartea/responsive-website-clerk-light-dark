@@ -13,8 +13,8 @@ function Videos() {
         <link rel="icon" href="/lightning-bolt.svg" />
       </Head>
       <Navbar />
-      <div className="my-32 text-center">
-        <h1 className="mb-10 text-4xl font-semibold text-gray-800 dark:text-gray-300">
+      <div className="py-32 text-center">
+        <h1 className="text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-16">
           Dev Videos
         </h1>
         <div className="max-w-6xl mx-auto">

@@ -21,10 +21,10 @@ function Tutorials({ posts, post }) {
       <Navbar />
       <div className="py-32 text-center ml-3 mr-3">
         <h2 className="text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-16">
-          Tutorials
+          Written Tutorials
         </h2>
         {/* Cards */}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 justify-between mb-10">
+        <div className="max-w-[69rem] mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 justify-between mb-10">
           {posts.map((post, index) => (
             <Post key={index} post={post} />
           ))}
