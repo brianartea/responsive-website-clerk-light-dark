@@ -41,7 +41,7 @@ function HeroGrid() {
               width={450}
               height={450}
               className="h-[450px] object-contain"
-              src="/undraw_community_re_cyrm.svg"
+              src="/github-dark.svg"
               alt="hero-image"
             />
           ) : (
