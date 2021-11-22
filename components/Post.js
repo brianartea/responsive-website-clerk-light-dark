@@ -31,7 +31,9 @@ export default function Post({ post }) {
       </Link>
 
       <Link href={`/tutorials/${post.slug}`}>
-        <a className="btn">Read More</a>
+        <a aria-label={`Read ${post.frontmatter.title}`} className="btn">
+          Read More
+        </a>
       </Link>
     </div>
   );
