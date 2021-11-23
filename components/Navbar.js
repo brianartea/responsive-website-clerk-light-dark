@@ -17,6 +17,7 @@ function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const router = useRouter();
+  const currentTheme = theme === "system" ? systemTheme : theme;
 
   useEffect(() => {
     setMounted(true);
@@ -94,17 +95,31 @@ function Navbar() {
               <MenuIcon className="md:hidden w-7 h-7 ml-4 text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-gray-100" />
               {isComponentVisible && <MobileNavbar />}
             </button>
-            <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
-              <a className="mt-[6px]" target="_blank">
-                <Image
-                  className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
-                  src="/GitHub-Mark-Light-32px.png"
-                  alt="GitHub Logo"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </Link>
+            {currentTheme === "dark" ? (
+              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+                <a className="mt-[6px]" target="_blank">
+                  <Image
+                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    src="/GitHub-Mark-Light-32px.png"
+                    alt="GitHub Logo"
+                    width={24}
+                    height={24}
+                  />
+                </a>
+              </Link>
+            ) : (
+              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+                <a className="mt-[6px]" target="_blank">
+                  <Image
+                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    src="/GitHub-Mark-32px.png"
+                    alt="GitHub Logo"
+                    width={24}
+                    height={24}
+                  />
+                </a>
+              </Link>
+            )}
             {renderThemeChanger()}
           </div>
         </div>
