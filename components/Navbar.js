@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import MobileNavbar from "./MobileNavbar";
 import Link from "next/link";
-//import Image from "next/image";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import useComponentVisible from "./useComponentVisible";
 import {
@@ -82,17 +82,29 @@ function Navbar() {
               </Link>
             </div>
           </div>
-          {/* Right Nav */}
 
+          {/* Right Nav */}
           <div className="flex items-center">
-            {/* Mobile button goes here! */}
+            {/* Mobile menu/button goes here! */}
             <button
               ref={ref}
               onClick={() => setIsComponentVisible(!isComponentVisible)}
+              className="mr-5"
             >
               <MenuIcon className="md:hidden w-7 h-7 ml-4 text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-gray-100" />
               {isComponentVisible && <MobileNavbar />}
             </button>
+            <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+              <a className="mt-[6px]" target="_blank">
+                <Image
+                  className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                  src="/GitHub-Mark-Light-32px.png"
+                  alt="GitHub Logo"
+                  width={24}
+                  height={24}
+                />
+              </a>
+            </Link>
             {renderThemeChanger()}
           </div>
         </div>
