@@ -2,8 +2,6 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Image from "next/image";
 //import Link from "next/link";
-//import { LightningBoltIcon } from "@heroicons/react/solid";
-//import Footer from "../components/Footer";
 
 function Videos() {
   return (
