@@ -57,7 +57,7 @@ function Navbar() {
         <div className="flex justify-between">
           <div className="flex">
             <div className="mr-8">
-              <Link href="/">
+              <Link href="/" passhref>
                 <a className="flex items-center py-4 pl-2 px-4 text-blue-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
                   <LightningBoltIcon className="h-7 w-7" />
                   <span className="text-2xl font-bold">Devs</span>
@@ -66,17 +66,17 @@ function Navbar() {
             </div>
             {/* Left Nav */}
             <div className="hidden md:flex md:justify-center items-center space-x-2 text-xl text-gray-600 font-semibold">
-              <Link href="/tutorials">
+              <Link href="/tutorials" passhref>
                 <a className="py-2 px-4 hover:bg-blue-500 hover:text-white dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 rounded-md transform duration-200">
                   Tutorials
                 </a>
               </Link>
-              <Link href="/videos">
+              <Link href="/videos" passhref>
                 <a className="py-2 px-4 hover:bg-blue-500 hover:text-white dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 rounded-md transform duration-200">
                   Videos
                 </a>
               </Link>
-              <Link href="/featured">
+              <Link href="/featured" passhref>
                 <a className="py-2 px-4 hover:bg-blue-500 hover:text-white dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200 rounded-md transform duration-200">
                   Featured
                 </a>
@@ -96,7 +96,10 @@ function Navbar() {
               {isComponentVisible && <MobileNavbar />}
             </button>
             {currentTheme === "dark" ? (
-              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+              <Link
+                href="https://github.com/brianartea/responsive-website-clerk-light-dark"
+                passhref
+              >
                 <a className="mt-[6px]" target="_blank">
                   <Image
                     className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
@@ -108,7 +111,10 @@ function Navbar() {
                 </a>
               </Link>
             ) : (
-              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+              <Link
+                href="https://github.com/brianartea/responsive-website-clerk-light-dark"
+                passhref
+              >
                 <a className="mt-[6px]" target="_blank">
                   <Image
                     className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
