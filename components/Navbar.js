@@ -96,29 +96,29 @@ function Navbar() {
               {isComponentVisible && <MobileNavbar />}
             </button>
             {currentTheme === "dark" ? (
-              // <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
-              //   <a className="mt-[6px]" target="_blank">
-              <Image
-                className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
-                src="/GitHub-Mark-Light-32px.png"
-                alt="GitHub Logo"
-                width={24}
-                height={24}
-              />
+              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+                <a className="mt-[6px]" target="_blank">
+                  <Image
+                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    src="/GitHub-Mark-Light-32px.png"
+                    alt="GitHub Logo"
+                    width={24}
+                    height={24}
+                  />
+                </a>
+              </Link>
             ) : (
-              //   </a>
-              // </Link>
-              // <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
-              //   <a className="mt-[6px]" target="_blank">
-              <Image
-                className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
-                src="/GitHub-Mark-32px.png"
-                alt="GitHub Logo"
-                width={24}
-                height={24}
-              />
-              //   </a>
-              // </Link>
+              <Link href="https://github.com/brianartea/responsive-website-clerk-light-dark">
+                <a className="mt-[6px]" target="_blank">
+                  <Image
+                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    src="/GitHub-Mark-32px.png"
+                    alt="GitHub Logo"
+                    width={24}
+                    height={24}
+                  />
+                </a>
+              </Link>
             )}
             {renderThemeChanger()}
           </div>
