@@ -21,12 +21,12 @@ function HeroGrid() {
             examples. React, React Native, NextJS, CSS, Tailwind and JavaScript.
           </p>
           <div>
-            <Link href="/videos">
+            <Link href="/videos" passHref>
               <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-gray-900 hover:bg-blue-600 text-gray-100 hover:text-white dark:hover:text-gray-50">
                 VIDEOS
               </button>
             </Link>
-            <Link href="/extras">
+            <Link href="/extras" passHref>
               <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-gray-900 hover:bg-blue-600 text-gray-100 hover:text-white dark:hover:text-gray-50">
                 EXTRAS
               </button>
