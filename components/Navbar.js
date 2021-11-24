@@ -88,7 +88,7 @@ function Navbar() {
           <div className="flex items-center">
             <SignedOut>
               <Link href="/sign-in">
-                <a className="text-xl font-semibold text-blue-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                <a className="text-xl font-semibold text-blue-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
                   Sign In
                 </a>
               </Link>
