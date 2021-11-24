@@ -8,7 +8,7 @@ import {
 } from "@clerk/clerk-react";
 import { useRouter } from "next/router";
 
-const publicPages = ["/sign-in/[[...index]]", "/sign-up/[[...index]]"];
+const publicPages = ["/", "/sign-in/[[...index]]", "/sign-up/[[...index]]"];
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
