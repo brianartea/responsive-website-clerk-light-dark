@@ -86,23 +86,22 @@ function Navbar() {
 
           {/* Right Nav */}
           <div className="flex items-center">
-            {/* Mobile menu/button goes here! */}
-            <button
-              ref={ref}
-              onClick={() => setIsComponentVisible(!isComponentVisible)}
-              className="mr-5"
-            >
-              <MenuIcon className="md:hidden w-7 h-7 ml-4 text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-gray-100" />
-              {isComponentVisible && <MobileNavbar />}
-            </button>
+            <SignedOut>
+              <Link href="/sign-in">
+                <a className=""></a>
+              </Link>
+            </SignedOut>
+            <SignedIn className="mr-5">
+              <UserButton className="mr-5" />
+            </SignedIn>
             {currentTheme === "dark" ? (
               <Link
                 href="https://github.com/brianartea/responsive-website-clerk-light-dark"
                 passhref
               >
-                <a className="mt-[6px]" target="_blank">
+                <a className="mt-[6px] ml-5" target="_blank">
                   <Image
-                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    className="cursor-pointer opacity-70 hover:opacity-100"
                     src="/GitHub-Mark-Light-32px.png"
                     alt="GitHub Logo"
                     width={24}
@@ -115,9 +114,9 @@ function Navbar() {
                 href="https://github.com/brianartea/responsive-website-clerk-light-dark"
                 passhref
               >
-                <a className="mt-[6px]" target="_blank">
+                <a className="mt-[6px] ml-5" target="_blank">
                   <Image
-                    className="lg:mr-10 mr-3 lg:ml-10 cursor-pointer opacity-70 hover:opacity-100"
+                    className="cursor-pointer opacity-70 hover:opacity-100"
                     src="/GitHub-Mark-32px.png"
                     alt="GitHub Logo"
                     width={24}
@@ -126,7 +125,17 @@ function Navbar() {
                 </a>
               </Link>
             )}
+
             {renderThemeChanger()}
+            {/* Mobile menu/button goes here! */}
+            <button
+              ref={ref}
+              onClick={() => setIsComponentVisible(!isComponentVisible)}
+              className=""
+            >
+              <MenuIcon className="md:hidden w-7 h-7 ml-3 text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-gray-100" />
+              {isComponentVisible && <MobileNavbar />}
+            </button>
           </div>
         </div>
       </div>
