@@ -34,6 +34,7 @@ function Navbar() {
           className="w-7 h-7 ml-4 dark:text-gray-400 dark:hover:text-gray-200"
           role="button"
           onClick={() => setTheme("light")}
+          title="Light Mode/Dark Mode"
         />
       );
     } else {
@@ -42,6 +43,7 @@ function Navbar() {
           className="w-7 h-7 ml-4 text-gray-600 hover:text-gray-800"
           role="button"
           onClick={() => setTheme("dark")}
+          title="Light Mode/Dark Mode"
         />
       );
     }
@@ -59,8 +61,15 @@ function Navbar() {
             <div className="mr-8">
               <Link href="/" passhref>
                 <a className="flex items-center py-4 pl-2 px-4 text-blue-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
-                  <LightningBoltIcon className="h-7 w-7" />
-                  <span className="text-2xl font-bold">Devs</span>
+                  <span title="Developing React, Next.js, CSS, Tailwind websites/apps">
+                    <LightningBoltIcon className="h-7 w-7 " />
+                  </span>
+                  <span
+                    title="Developing React, Next.js, CSS, Tailwind websites/apps"
+                    className="text-2xl font-bold"
+                  >
+                    Devs
+                  </span>
                 </a>
               </Link>
             </div>
@@ -87,7 +96,7 @@ function Navbar() {
           {/* Right Nav */}
           <div className="flex items-center">
             <SignedOut>
-              <Link href="/sign-in">
+              <Link href="/sign-in" title="Sign In" alt="Sign In">
                 <a className="text-xl font-semibold text-blue-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
                   Sign In
                 </a>
@@ -108,6 +117,7 @@ function Navbar() {
                     alt="GitHub Logo"
                     width={24}
                     height={24}
+                    title="Here's the repo for this site"
                   />
                 </a>
               </Link>
@@ -123,12 +133,13 @@ function Navbar() {
                     alt="GitHub Logo"
                     width={24}
                     height={24}
+                    title="Here's the repo for this site"
                   />
                 </a>
               </Link>
             )}
 
-            {renderThemeChanger()}
+            <span title="Lightmode/Darkmode">{renderThemeChanger()}</span>
             {/* Mobile menu/button goes here! */}
             <button
               ref={ref}
