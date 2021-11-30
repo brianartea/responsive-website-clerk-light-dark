@@ -1,29 +1,15 @@
 ---
-title: "Nextjs Crash Course"
+title: "Create a React App"
 date: "November 19, 2021"
-excerpt: "Next is a very powerful framework for React building high performance web applications that are super fast!"
+excerpt: "React is a very powerful library for building high performance web applications that are super fast!"
 cover_image: "/images/posts/img3.jpg"
 ---
 
-### For starters Next has built in routing, server-side rendering (SSR/Code Splitting) and just puts out the info the user wants without downloading the whole app in turn having super fast page loads.
+### This how to start making React apps/websites.
 
-1. Serrae enim Etruscam aquis
-2. Et premis et flumine frontem minatur oppressos
-3. Inquam rector Icarus possum vim tumulo propiusque
-4. Vulnus se Latreus
-5. Aptumque bis
+Open up a terminal/cmd prompt, go to the directory you want your project in and run the following command and press enter. Where ot says my-app you can name that anything you want, it's the project's name.
 
-## Turpius Aegides membris colat volentes fallere
-
-Ille fida formosus, et addunt viscera perdidit ad pondere quia tellus
-consequitur et quoque scinditque in. Ratis laborum instabat quaedam partem
-Phoebus, manus _partibus poenas_. Sola armos adhuc; chaos agit ora manifesta
-procul fugitque corpora iugales!
-
-    var ethics_font_drive = cycleSystemProgram + deprecatedTransferIp.ide(3) /
-            rgb + nybbleBaseband;
-    permalinkCertificateMacintosh(ergonomicsIsdnDns);
-    boot = bridgeDaemonActive;
+    npx create-react-app my-app
 
 ## O contra diu
 
