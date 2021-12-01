@@ -53,7 +53,7 @@ function Navbar() {
     useComponentVisible(false);
 
   return (
-    <nav className="fixed top-0 z-50 w-[100%] bg-gray-50 border-b-[1px] border-gray-300 dark:bg-gray-900 dark:border-b-[1px] dark:border-gray-700">
+    <nav className="fixed top-0 z-50 w-[100%] bg-gray-50 border-b-[1px] border-gray-200 dark:bg-gray-900 dark:border-b-[1px] dark:border-gray-700">
       <div className="max-w-6xl mx-auto mb-2 mt-2 px-4">
         {/* Logo */}
         <div className="flex justify-between">
@@ -97,7 +97,10 @@ function Navbar() {
           <div className="flex items-center">
             <SignedOut>
               <Link href="/sign-in" title="Sign In" alt="Sign In">
-                <a className="text-xl font-semibold text-blue-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+                <a
+                  title="Sign In"
+                  className="text-xl font-semibold text-blue-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                >
                   Sign In
                 </a>
               </Link>
