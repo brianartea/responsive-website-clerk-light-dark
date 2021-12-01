@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
               <Component {...pageProps} />
             </SignedIn>
             <SignedOut>
-              <RedirectToSignIn />
+              <RedirectToSignIn returnBack={true} />
             </SignedOut>
           </>
         )}
