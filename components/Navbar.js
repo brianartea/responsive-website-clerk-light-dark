@@ -145,6 +145,7 @@ function Navbar() {
               ref={ref}
               onClick={() => setIsComponentVisible(!isComponentVisible)}
               className=""
+              title="Menu Navigation"
             >
               <MenuIcon className="md:hidden w-7 h-7 ml-3 text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-gray-100" />
               {isComponentVisible && <MobileNavbar />}
