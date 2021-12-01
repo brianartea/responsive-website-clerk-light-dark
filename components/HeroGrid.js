@@ -22,12 +22,12 @@ function HeroGrid() {
           </p>
           <div>
             <Link href="/videos">
-              <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-[#3F3D56] hover:bg-black text-gray-100 hover:text-white dark:hover:text-gray-50">
+              <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:text-gray-100 dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-white text-gray-700 hover:bg-black hover:text-gray-100 dark:hover:text-gray-50">
                 VIDEOS
               </button>
             </Link>
             <Link href="/extras">
-              <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-[#3F3D56] hover:bg-black text-gray-100 hover:text-white dark:hover:text-gray-50">
+              <button className="text-base transform transition border-[1px] border-gray-900 px-10 py-4 mt-0 mr-5 rounded dark:text-gray-100 dark:border-gray-500 dark:hover:border-gray-400 dark:bg-gray-900 dark:hover:bg-black bg-white text-gray-700 hover:bg-black hover:text-gray-100 dark:hover:text-gray-50">
                 EXTRAS
               </button>
             </Link>
